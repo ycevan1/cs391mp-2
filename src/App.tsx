@@ -11,6 +11,14 @@ const ParentDiv = styled.div`
     border-radius: 1.5vw;
 `;
 
+const StyledTitle=styled.h1`
+    display: block;
+    text-align: center;
+    color: sienna;
+    font: italic small-caps bold calc(2px + 2.5vw) Papyrus, fantasy;
+`;
+
+
 export default function App() {
     const [data, setData] = useState<Cocktail[]>([]);
         useEffect(() => {
@@ -26,6 +34,7 @@ export default function App() {
 
     return (
         <ParentDiv>
+            <StyledTitle>Cocktail Recipes</StyledTitle>
             <Cocktails data={data}/>
         </ParentDiv>
     )
