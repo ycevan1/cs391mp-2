@@ -8,7 +8,8 @@ const ParentDiv = styled.div`
     margin: 5vw auto;
     border: 5px #8C6239 solid;
     background-color: #F4E3C1;
-    border-radius: 1.5vw;
+    border-radius: 1.3vw;
+    box-shadow: 0 0 0.35vw wheat;
 `;
 
 const StyledTitle=styled.h1`

@@ -20,6 +20,7 @@ const SingleDrinkDiv=styled.div `
     border-radius: 1.2vw;
     font: italic small-caps bold calc(2px + 1vw) Papyrus, fantasy;
     text-align: center;
+    box-shadow: 0 0 0.35vw #2E4A3D;
 `;
 
 export default function Cocktails(props : { data:Cocktail[] } ) {
