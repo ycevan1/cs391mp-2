@@ -18,7 +18,7 @@ const SingleDrinkDiv=styled.div `
     color: #E3B448;
     border: 3px #A7C17D solid;
     border-radius: 1.2vw;
-    font: italic small-caps bold calc(2px + 1vw) Papyrus, fantasy;
+    font: italic small-caps bold calc(2px + 1.5vw) Times New Roman, Serif;
     text-align: center;
     box-shadow: 0 0 0.35vw #2E4A3D;
 `;

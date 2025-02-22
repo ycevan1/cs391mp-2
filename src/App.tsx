@@ -16,7 +16,7 @@ const StyledTitle=styled.h1`
     display: block;
     text-align: center;
     color: sienna;
-    font: italic small-caps bold calc(2px + 2.5vw) Papyrus, fantasy;
+    font: italic small-caps bold calc(2px + 3vw) Times New Roman, Serif;
 `;
 
 
